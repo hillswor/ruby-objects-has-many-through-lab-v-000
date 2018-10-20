@@ -1,4 +1,4 @@
-class Genre 
+class Genre
 
   attr_accessor :name
 
@@ -10,7 +10,7 @@ class Genre
     @@all << self
   end
 
-  def songs 
+  def songs
     Songs.all.select do |song|
       song.genre = self
     end
