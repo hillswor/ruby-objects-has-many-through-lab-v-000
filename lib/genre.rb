@@ -8,3 +8,5 @@ class Genre
     @name = name
     @songs = []
   end
+
+end
