@@ -20,6 +20,6 @@ class Song
   end
 
   def new_song(name, genre)
-    new_song = Song.new(name, self, genre)
+    song = Song.new(name, self, genre)
 
 end
