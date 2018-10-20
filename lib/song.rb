@@ -1,3 +1,5 @@
+require "pry"
+
 class Song
 
   attr_accessor :name, :artist, :genre
@@ -11,8 +13,8 @@ class Song
     @@all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 
 end
