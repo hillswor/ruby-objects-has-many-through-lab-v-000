@@ -1,4 +1,6 @@
 require "pry"
+require "artist"
+require "genre"
 
 class Song
 
